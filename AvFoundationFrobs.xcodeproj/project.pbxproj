@@ -12,6 +12,11 @@
 		B00518DA199BA7610070659F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00518D8199BA7610070659F /* Main.storyboard */; };
 		B00518DC199BA7610070659F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00518DB199BA7610070659F /* Images.xcassets */; };
 		B00518E8199BA7610070659F /* AvFoundationFrobsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00518E7199BA7610070659F /* AvFoundationFrobsTests.swift */; };
+		B00518F2199BA9270070659F /* modem-dialing-02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B00518F1199BA9270070659F /* modem-dialing-02.mp3 */; };
+		B00518F4199BB52D0070659F /* GeneralUser GS MuseScore v1.442.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = B00518F3199BB52D0070659F /* GeneralUser GS MuseScore v1.442.sf2 */; };
+		B00518F6199BBAFC0070659F /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00518F5199BBAFC0070659F /* Sound.swift */; };
+		B00518F8199BBD1F0070659F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B00518F7199BBD1F0070659F /* README.md */; };
+		B00518FA199BC2520070659F /* ntbldmtn.mid in Resources */ = {isa = PBXBuildFile; fileRef = B00518F9199BC2520070659F /* ntbldmtn.mid */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,11 @@
 		B00518E1199BA7610070659F /* AvFoundationFrobsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvFoundationFrobsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B00518E6199BA7610070659F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B00518E7199BA7610070659F /* AvFoundationFrobsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvFoundationFrobsTests.swift; sourceTree = "<group>"; };
+		B00518F1199BA9270070659F /* modem-dialing-02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "modem-dialing-02.mp3"; path = "../SwiftAVFound/SwiftAVFound/modem-dialing-02.mp3"; sourceTree = "<group>"; };
+		B00518F3199BB52D0070659F /* GeneralUser GS MuseScore v1.442.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GeneralUser GS MuseScore v1.442.sf2"; path = "../SwiftAVFound/SwiftAVFound/GeneralUser GS MuseScore v1.442.sf2"; sourceTree = "<group>"; };
+		B00518F5199BBAFC0070659F /* Sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		B00518F7199BBD1F0070659F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B00518F9199BC2520070659F /* ntbldmtn.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; name = ntbldmtn.mid; path = ../SwiftAVFound/SwiftAVFound/ntbldmtn.mid; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,10 @@
 		B00518C6199BA7600070659F = {
 			isa = PBXGroup;
 			children = (
+				B00518F9199BC2520070659F /* ntbldmtn.mid */,
+				B00518F7199BBD1F0070659F /* README.md */,
+				B00518F3199BB52D0070659F /* GeneralUser GS MuseScore v1.442.sf2 */,
+				B00518F1199BA9270070659F /* modem-dialing-02.mp3 */,
 				B00518D1199BA7600070659F /* AvFoundationFrobs */,
 				B00518E4199BA7610070659F /* AvFoundationFrobsTests */,
 				B00518D0199BA7600070659F /* Products */,
@@ -80,6 +94,7 @@
 				B00518D8199BA7610070659F /* Main.storyboard */,
 				B00518DB199BA7610070659F /* Images.xcassets */,
 				B00518D2199BA7600070659F /* Supporting Files */,
+				B00518F5199BBAFC0070659F /* Sound.swift */,
 			);
 			path = AvFoundationFrobs;
 			sourceTree = "<group>";
@@ -189,8 +204,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B00518FA199BC2520070659F /* ntbldmtn.mid in Resources */,
+				B00518F4199BB52D0070659F /* GeneralUser GS MuseScore v1.442.sf2 in Resources */,
 				B00518DA199BA7610070659F /* Main.storyboard in Resources */,
 				B00518DC199BA7610070659F /* Images.xcassets in Resources */,
+				B00518F2199BA9270070659F /* modem-dialing-02.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +227,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B00518D7199BA7600070659F /* ViewController.swift in Sources */,
+				B00518F6199BBAFC0070659F /* Sound.swift in Sources */,
+				B00518F8199BBD1F0070659F /* README.md in Sources */,
 				B00518D5199BA7600070659F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
