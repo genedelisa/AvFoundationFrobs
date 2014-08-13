@@ -17,7 +17,7 @@ As of XCode 6 beta 5, stopping the MIDI player crashes the app.
 
 ## Licensing
 
-This project is in the public domain. Not much to it.
+I'd appreciate an ack somehow.
 
 ## Credits
 
