@@ -2,6 +2,8 @@
 
 A few examples for my blog post on using AVFoundation in Swift.
 
+You need to grab your own sound font and MIDI file, then update the names in the code.
+
 ## Blog post for this example.
 
 [Blog post](http://www.rockhoppertech.com/blog/swift-avfoundation/)   
